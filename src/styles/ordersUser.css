@@ -1,0 +1,56 @@
+.orders-user-container {
+  padding: 50px;
+}
+
+.orders-user-container h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.orders-user-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.orders-user-container th {
+  background: #2e7d32;
+  color: white;
+  padding: 12px;
+}
+
+.orders-user-container td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.status.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status.confirmed {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.status.shipped {
+  background: #cce5ff;
+  color: #004085;
+}
+
+.status.delivered {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.cancelled {
+  background: #f8d7da;
+  color: #721c24;
+}

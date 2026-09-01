@@ -1,0 +1,92 @@
+.categories-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+.categories-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.categories-content h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Categories Table */
+
+.categories-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categories-table th {
+  background: #2e7d32;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.categories-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.categories-table tr:hover {
+  background: #f8f8f8;
+}
+
+/* Edit Button */
+
+.edit-btn {
+  background: #ffc107;
+  color: #000;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #ffb300;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .categories-content {
+    padding: 15px;
+  }
+
+  .categories-table {
+    display: block;
+    overflow-x: auto;
+  }
+}

@@ -1,0 +1,31 @@
+.edit-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.edit-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.edit-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.edit-form button {
+  width: 100%;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px;
+}

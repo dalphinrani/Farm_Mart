@@ -1,0 +1,152 @@
+.cart-page {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  background: #f7fbf5;
+  min-height: 80vh;
+}
+
+.cart-items-section {
+  flex: 3;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.cart-header h2 {
+  color: #2e4d34;
+}
+
+.clear-cart {
+  border: none;
+  background: none;
+  color: #c95c5c;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.cart-item img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  margin: 0;
+  color: #2e4d34;
+}
+
+.item-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.item-details h4 {
+  color: #2e7d32;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-box button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #edf5e8;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.item-total {
+  color: #2e4d34;
+}
+
+.remove-btn {
+  border: none;
+  background: none;
+  color: #c95c5c;
+  cursor: pointer;
+}
+
+.summary-section {
+  flex: 1;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  height: fit-content;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.summary-section h2 {
+  margin-bottom: 25px;
+  color: #2e4d34;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  font-size: 22px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 14px;
+  background: #3d6f44;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.continue-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #2e4d34;
+  font-size: 15px;
+}
+
+@media (max-width: 900px) {
+  .cart-page {
+    flex-direction: column;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+}

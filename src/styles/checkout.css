@@ -1,0 +1,146 @@
+.checkout-page {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  background: #f7fbf5;
+  min-height: 80vh;
+}
+
+.checkout-left {
+  flex: 2;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+.checkout-left h1 {
+  color: #2e4d34;
+  margin-bottom: 25px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.checkout-form label {
+  font-weight: 600;
+  color: #2e4d34;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.checkout-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row div {
+  flex: 1;
+}
+
+.payment-title {
+  margin-top: 20px;
+  color: #2e4d34;
+}
+
+.payment-option {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.place-order-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #3d6f44;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkout-right {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  height: fit-content;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+}
+
+.checkout-right h1 {
+  color: #2e4d34;
+  margin-bottom: 25px;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.summary-item img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.summary-details {
+  flex: 1;
+}
+
+.summary-details h3 {
+  margin: 0;
+  color: #2e4d34;
+}
+
+.summary-details p {
+  margin-top: 5px;
+  color: #777;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  margin: 25px 0;
+}
+
+.back-btn {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: #2e4d34;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .checkout-page {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}

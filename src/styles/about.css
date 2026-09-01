@@ -1,0 +1,190 @@
+.about-hero {
+  height: 75vh;
+  background: url("https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=80")
+center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 45px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  max-width: 750px;
+}
+
+.about-overlay h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.about-overlay p {
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.about-btn {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #1b5e20;
+}
+
+.about-section {
+  padding: 80px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.about-content h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.about-content p {
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.why-section {
+  background: #f8faf8;
+  padding: 80px 50px;
+}
+
+.why-section h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 40px;
+  font-size: 38px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.why-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+}
+
+.why-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.why-card h3 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.why-card p {
+  color: #666;
+  line-height: 1.8;
+}
+
+.mission-section {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.mission-card {
+  max-width: 900px;
+  margin: auto;
+  background: #f8faf8;
+  padding: 45px;
+  border-left: 6px solid #2e7d32;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.mission-card h2 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.mission-card p {
+  color: #555;
+  line-height: 1.9;
+  font-size: 17px;
+}
+
+.cta-section {
+  background: #f1f8e9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-size: 36px;
+}
+
+.cta-section p {
+  color: #555;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-overlay h1 {
+    font-size: 38px;
+  }
+
+  .about-overlay p {
+    font-size: 16px;
+  }
+
+  .about-section {
+    padding: 50px 20px;
+  }
+}

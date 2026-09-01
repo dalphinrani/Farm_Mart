@@ -1,0 +1,40 @@
+.add-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.add-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.add-content h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.product-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.product-form input,
+.product-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.product-form button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 6px;
+}

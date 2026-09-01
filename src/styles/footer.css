@@ -1,0 +1,36 @@
+.footer {
+  background: #cbf6d0;
+  color: black;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 8px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: #34843a;
+}

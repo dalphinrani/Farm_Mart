@@ -1,0 +1,164 @@
+.product-card {
+  width: 240px;
+  height: 420px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Product Image */
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: #fff;
+  display: block;
+}
+
+/* Product Details */
+.product-info {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Product Name */
+.product-info h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+  line-height: 1.3;
+  color: #333;
+  height: 45px;
+  overflow: hidden;
+}
+
+/* Rating */
+.product-rating {
+  color: #ff9800;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Category */
+.product-category {
+  margin: 0 0 6px;
+  color: #4caf50;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Description */
+.product-description {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #666;
+  height: 38px;
+  overflow: hidden;
+}
+
+/* Price */
+.product-price {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Buttons Row */
+.product-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.product-buttons a {
+  flex: 1;
+  text-decoration: none;
+}
+
+.product-buttons button {
+  width: 100%;
+}
+
+/* View Details Button */
+.view-btn {
+  height: 38px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.view-btn:hover {
+  background: #1b5e20;
+}
+
+/* Add To Cart Button */
+.cart-btn {
+  height: 38px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cart-btn:hover {
+  background: #f57c00;
+}
+.product-rating {
+  color: #ff9800;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.product-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.product-buttons a {
+  flex: 1;
+}
+
+.view-btn,
+.cart-btn {
+  width: 100%;
+  height: 38px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.view-btn {
+  background: #2e7d32;
+  color: white;
+}
+
+.cart-btn {
+  background: #ff9800;
+  color: white;
+}
+
+.cart-btn:hover {
+  background: #f57c00;
+}

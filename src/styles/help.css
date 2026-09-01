@@ -1,0 +1,190 @@
+.help-hero {
+  background: #f1f8e9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.help-hero h1 {
+  color: #2e7d32;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.help-hero p {
+  max-width: 700px;
+  margin: auto;
+  color: #555;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.help-grid-section {
+  padding: 70px 40px;
+}
+
+.help-grid-section h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 40px;
+}
+
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.help-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.help-card:hover {
+  transform: translateY(-8px);
+}
+
+.help-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.help-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.help-card p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.faq-section {
+  background: #f8faf8;
+  padding: 70px 40px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 35px;
+}
+
+.faq-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.faq-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.support-stats {
+  padding: 70px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.stat-box {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.stat-box h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  padding: 70px 40px;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 35px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.contact-card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.contact-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.support-cta {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.support-cta h2 {
+  margin-bottom: 15px;
+  font-size: 36px;
+}
+
+.support-cta p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.support-cta button {
+  background: white;
+  color: #2e7d32;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .help-grid,
+  .support-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .help-grid,
+  .support-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .help-hero h1 {
+    font-size: 32px;
+  }
+}
