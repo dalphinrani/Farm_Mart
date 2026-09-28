@@ -6,7 +6,7 @@ function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/users")
+    fetch("https://farm-mart-backend-ukda.onrender.com/users")
       .then((response) => response.json())
       .then((data) => {
         setUsers(data);
@@ -25,7 +25,7 @@ function Users() {
 
     try {
       await fetch(
-        `http://localhost:3000/users/${id}`,
+        `https://farm-mart-backend-ukda.onrender.com/users/${id}`,
         {
           method: "DELETE",
         }
