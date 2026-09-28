@@ -30,7 +30,7 @@ function AddProduct() {
 };
 
       const response = await fetch(
-        "http://localhost:3000/products",
+        "https://farm-mart-backend-ukda.onrender.com/products",
         {
           method: "POST",
           headers: {
