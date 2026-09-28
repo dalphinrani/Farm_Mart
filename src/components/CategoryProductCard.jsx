@@ -35,7 +35,7 @@ function CategoryProductCard({ product }) {
 
   if (!isLoggedIn) {
     alert("Please login first");
-    window.location.href = "/login";
+    window.location.href = "/Login";
     return;
   }
 
@@ -83,7 +83,7 @@ const cart =
 
   if (!isLoggedIn) {
     alert("Please login first");
-    window.location.href = "/login";
+    window.location.href = "/Login";
     return;
   }
 
