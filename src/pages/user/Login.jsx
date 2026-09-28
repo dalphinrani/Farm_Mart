@@ -24,7 +24,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        `http://localhost:3000/users?email=${loginData.email}&password=${loginData.password}`
+        `https://farm-mart-backend-ukda.onrender.com/users?email=${loginData.email}&password=${loginData.password}`
       );
 
       const data = await response.json();
