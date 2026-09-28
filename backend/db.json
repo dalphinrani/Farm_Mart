@@ -1,6 +1,14 @@
 {
   "users": [
     {
+      "id": "admin1",
+      "name": "Farm Mart Admin",
+      "email": "admin@farmmart.com",
+      "phone": "7073284567",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
       "name": "nandhu",
       "email": "nandhu@gmail.com",
       "phone": "6234738232",
