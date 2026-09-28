@@ -35,7 +35,7 @@ function Register() {
 
     try {
       const checkUser = await fetch(
-        `http://localhost:3000/users?email=${formData.email}`
+        `https://farm-mart-backend-ukda.onrender.com/users?email=${formData.email}`
       );
 
       const existingUser =
@@ -55,7 +55,7 @@ function Register() {
       };
 
       const response = await fetch(
-        "http://localhost:3000/users",
+        "https://farm-mart-backend-ukda.onrender.com/users",
         {
           method: "POST",
           headers: {
@@ -214,7 +214,7 @@ navigate("/login");
             Already have an account?{" "}
             <span
               onClick={() =>
-                navigate("/login")
+                navigate("/Login")
               }
             >
               Login
