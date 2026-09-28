@@ -51,7 +51,7 @@ function Dashboard() {
       try {
         // USERS
         const usersRes = await fetch(
-          "http://localhost:3000/users"
+          "https://farm-mart-backend-ukda.onrender.com/users"
         );
 
         const users =
@@ -62,7 +62,7 @@ function Dashboard() {
         // PRODUCTS
         const productsRes =
           await fetch(
-            "http://localhost:3000/products"
+            "https://farm-mart-backend-ukda.onrender.com/products"
           );
 
         const products =
