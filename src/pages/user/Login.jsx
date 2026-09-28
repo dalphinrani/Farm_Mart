@@ -49,7 +49,7 @@ function Login() {
 
         alert("Admin Login Successful");
 
-        navigate("/admin");
+        navigate("/admin/dashboard");
       } else {
         localStorage.setItem(
           "user",
