@@ -10,7 +10,7 @@ function Categories() {
   }, []);
 
   const loadCategories = () => {
-    fetch("http://localhost:3000/products")
+    fetch("https://farm-mart-backend-ukda.onrender.com/products")
       .then((res) => res.json())
       .then((data) => {
         const categoryData = Object.values(
