@@ -12,7 +12,7 @@ function CategoryProducts() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://farm-mart-backend-ukda.onrender.com/products")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch products");
