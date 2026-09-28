@@ -37,19 +37,9 @@ function Login() {
       const user = data[0];
 
       if (user.role === "admin") {
-        localStorage.setItem(
-          "admin",
-          JSON.stringify(user)
-        );
-
-        localStorage.setItem(
-          "isLoggedIn",
-          "true"
-        );
-
-        alert("Admin Login Successful");
-
-        navigate("/admin/dashboard");
+        alert("Please use the Admin Login page");
+        navigate("/admin/login");
+        return;
       } else {
         localStorage.setItem(
           "user",
