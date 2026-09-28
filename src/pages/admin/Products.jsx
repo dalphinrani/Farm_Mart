@@ -7,7 +7,7 @@ function Products() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+    fetch("https://farm-mart-backend-ukda.onrender.com/products")
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.log(err));
@@ -22,7 +22,7 @@ function Products() {
 
     try {
       await fetch(
-        `http://localhost:3000/products/${id}`,
+        `https://farm-mart-backend-ukda.onrender.com/products/${id}`,
         {
           method: "DELETE",
         }
